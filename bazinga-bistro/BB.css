@@ -1,0 +1,220 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+   position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ 
+
+  background-color: #d69027;
+}
+
+
+#header-img{
+  justify-content: center;
+  margin-right: 500px;
+  margin-left: 50px;
+  
+  width: 90px;
+  height: auto;
+  border-radius: 3px;
+
+  box-shadow: 0 2px 5pxrgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+
+  
+  margin-top: 70px;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                    url('https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1000&auto=format&fit=crop');
+
+   height: 400px;
+  width: auto;
+  background: cover;
+  background-position: center; 
+
+}
+
+
+#nav-bar ul{
+  display: flex; 
+  list-style: none;
+  margin-right: 40px;
+}
+
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+
+
+#delivery-truck{
+  align-items: center;
+  justify-content: center;
+}
+
+.hr1{
+  border: 2px solid black;
+}
+
+
+#features{
+  text-align: center;
+  padding: 20px;
+  background: white;
+
+}
+
+
+.feature-item{
+   text-align: center;
+   flex: 3;
+  padding: 20px;
+  border-radius: 8px;
+  justify-content: space-evenly;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+  
+  background: rgb(204, 140, 21);
+
+}
+
+
+.feature-item h2{
+  font-size: 1.5rem;
+  color: whitesmoke;
+
+}
+
+
+#offers{
+  text-align: center;
+  padding: 50px;
+
+}
+
+
+
+.membership-card{
+  margin: 10px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-left: 5px solid gold;
+  font-size: 1.4rem;
+
+}
+
+
+
+#email{
+  text-decoration: none;
+  padding: 2px auto;
+  border-radius: 3px
+}
+
+
+#submit, .btn{
+
+  
+  border-radius: 3px;
+  background-color: #528d49;
+  color: whitesmoke;
+  border: none; 
+  padding: 4px 5px;
+
+  transition: background-color 0.4s ease;
+
+}
+
+
+#submit, .btn:active{
+  background-color: #528d49;
+}
+
+
+#submit:active, .btn:active {
+  background-color: #3e6b37; 
+}
+
+
+#submit:hover, .btn:hover{
+  cursor: pointer;
+  background-color: gold;
+  
+}
+
+
+
+
+@media (max-width: 600px){
+  #header{
+   flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    height: auto;
+  }
+    #header-img{
+     display: block;
+    width: 90px;
+    height: auto;
+
+
+      
+     margin: 0 auto; 
+    border-radius: 3px;
+
+    }
+    
+
+    #nav-bar ul{
+      display: flex;
+      padding: 0;
+      justify-content: center; 
+      margin-right: 0;
+
+    }
+
+    #home{
+      margin-top: 150px;
+    }
+}
+
+
+
+
+
