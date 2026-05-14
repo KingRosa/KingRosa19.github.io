@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #121212;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    line-height: 1.6;
+
+    padding-top: 100px;
+}
+
+
+.main-content{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+
+
+/*Header Section BAZINGA */
+
+.commission-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.commission-header h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.5rem;
+    color: #a855f7;
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+
+}
+
+.commission-header p{
+    font-size: 1.2rem;
+    color: #cccccc;
+
+}
+
+.work-page{
+    display: inline-block;
+    margin-left: 5px;
+
+    color: orangered;
+    text-decoration: none;
+    border: 1px solid #a855f7;
+
+
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 1.rem;
+
+    transition: all 0.3s ease;
+
+}
+
+
+.work-page:hover{
+    background-color: #a855f7;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+}
+
+
+
+
+
+
+/*Service Grid Section */
+
+
+.services-grid{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    
+
+    margin-bottom: 80px;
+}
+
+
+.card{
+    text-align: center;
+    background: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 20px;
+
+    padding: 40px 25px;
+
+    width: 320px; 
+    
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+
+
+
+.card:hover{
+    transform: translateY(-12px);
+    border-color: #a855f7;
+    box-shadow: 0 15px 30px rgba(168, 85, 247, 0.2);
+
+}
+
+
+
+.icon{
+    display: block;
+    font-size: 3rem;
+    
+
+    margin-bottom: 20px;
+
+}
+
+
+.card h3{
+    color: #d8b4fe;
+    font-size: 1.5rem;
+
+
+    margin-bottom: 15px;
+
+}
+
+
+.card p{
+    font-size: 0.95rem;
+    color: #aaaaaa;
+
+    margin-bottom: 20px;
+}
+
+
+
+.price{
+    font-size: 1.3rem;
+    font-weight: bold; 
+    color: #a855f7;
+
+
+    border-top: 1px solid #333;
+    padding-top: 15px;
+
+}
+
+
+
+/*Process Section */
+
+
+.process-section{
+    background: #1a1a1a;
+    
+    padding: 50px;
+    border-radius: 25px;
+    border-left: 8px solid #a855f7;
+
+    margin-bottom: 80px;
+}
+
+
+
+.process-section h2{
+    font-size: 2rem;
+    color: #a855f7;
+    margin-bottom: 25px;
+}
+
+
+.process-section ol{
+    margin-left: 20px;
+}
+
+
+
+.process-section li{
+    font-size: 1.1rem;
+    color: #dddddd;
+
+    margin-bottom: 15px;
+}
+
+
+.process-section li strong{
+    color: #d8d8d8;
+}
+
+
+
+
+/*Google Form */
+
+.google-form{
+    background: #ffffff;
+    border-radius: 20px;
+
+    padding: 15px;
+
+    margin-top: 40px;
+    box-shadow: 0 0 40px rgba(168, 85, 247, 0.4);
+    overflow: hidden; 
+}
+
+
+
+@media (max-width: 768px){
+    .commission-header h1{
+        font-size: 2.5rem; 
+    }
+
+
+    .card{
+        width: 100%;
+    }
+
+
+    .process-section{
+        padding: 30px;
+    }
+}
